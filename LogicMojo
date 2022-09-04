@@ -1,0 +1,17 @@
+int array = {1,2,3,4,5}
+max =  Integer.MAX_VALUE
+second_max = Integer.MAX_VALUE
+for (i =0; i < array.length; i++) {
+    if (array[i]> max)
+	
+	{
+	second_max = max 
+	max = array [i]
+	}
+	else if (array[i]> second_max)
+	
+	{
+	second_max = max 
+	max = array [i]
+	}
+}
